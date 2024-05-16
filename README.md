@@ -1,7 +1,25 @@
 # Drupal Setup Template For Learning
 
+## Git Setup
+> Please note that the following actions need to be performed only once. In future, the same setup maybe useful while you setup other projects.
+
+Verify if username in Git is set or follow [Setting your username in Git](https://docs.github.com/en/get-started/getting-started-with-git/setting-your-username-in-git).
+```
+git config user.name
+```
+
+Verify if email in Git is set or follow [Setting your commit email address](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/setting-your-commit-email-address#setting-your-commit-email-address-in-git).
+```
+git config user.email
+```
+
+Verify if ssh-keys are set or follow [Generate new SSH Keys](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) and [Adding SSH Key to Github](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account).
+```
+ls ~/.ssh
+```
+
 ## DDEV Setup
-Refer official document, or run below commands in sequence:
+Refer [official document](https://ddev.readthedocs.io/en/stable/users/cli-usage/#drupal-9-quickstart), or run below commands in sequence:
 
 ```
 mkdir project-name
