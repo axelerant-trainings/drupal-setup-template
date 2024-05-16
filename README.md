@@ -99,4 +99,6 @@ git push origin develop
 
 Now, you should be ready to start tracking your local work and raising pull-requests.
 
+## Create Pull Requests (PR)
+Once your solution is ready create PR following [Creating a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request).
 
