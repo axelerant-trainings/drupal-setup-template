@@ -23,6 +23,7 @@
 
 
 # Miscellaneous files
+.vscode
 .editorconfig
 .gitattributes
 web/.csslintrc
